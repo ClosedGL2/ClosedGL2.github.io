@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd" xml:lang="en">
+	<head>
+		<title>Now writing in Markdown</title>
+		<link rel="stylesheet" href="../../css.css"/>
+		<link rel="shortcut icon" href="../../favicon.ico"/>
+		<meta name="author" content="ClosedGL"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="main">
+			<p><a href="../../">ClosedGL's Website</a> / <a href="../">Blog</a> / Now Writing in Markdown</p>
+			
+			<h1>Now writing in Markdown</h1>
+			
+			<p><i>First published Jan 16, 2022 at 2:02 PM</i></p>
+			
+			<p>Last month, I had the idea to write my website in Markdown instead of HTML so I could write pages in a simple text format and not have to manually write so many HTML tags. Then, when I want to upload the site, I will run a script to convert all the Markdown to HTML for web browsers.</p>
+			
+			<p>I have now reformatted my entire site in Markdown, and I was crazy enough to write <a href="https://codeberg.org/closedgl/mdbuilder">my own Markdown to HTML converter</a> in C.</p>
+			
+			<h1>Why I made my own Markdown converter</h1>
+			
+			<p>There are web frameworks like <a href="https://pedantic.software/git/blogit">blogit</a> and <a href="https://werc.cat-v.org/">werc</a> that use Markdown, but I didn't want to structure my site around such a thing or configure a server for it.</p>
+			
+			<p>I wanted something that converts Markdown files individually that I could easily throw into a <a href="../../files/build.sh">build script</a>.</p>
+			
+			<p>I did search for a Markdown CLI program to use, but a lot of what I found either wasn't as good or was written in a cuck programming language like NodeJS or Go.</p>
+			
+			<p><a href="gomdtest.gif"><img src="gomdtest-preview.png" alt="markdown-cli test"/></a></p>
+			
+			<h1>Showcasing my Markdown to HTML converter</h1>
+			
+			<p><a href="mdb-help.gif"><img src="mdb-help-preview.png" alt="mdbuilder help"/></a></p>
+			
+			<p>Input Markdown files are specified with the <code>-i</code> option.</p>
+			
+			<p><a href="mdb-demo1.gif"><img src="mdb-demo1-preview.png" alt="mdbuilder converting example markdown file"/></a></p>
+			
+			<p>Prettyprinting is optional with the <code>-p</code> option.</p>
+			
+			<p><a href="mdb-demo2.gif"><img src="mdb-demo2-preview.png" alt="mdbuilder without prettyprinting"/></a></p>
+			
+			<p>mdbuilder can also only output the text in the first heading with the <code>-t</code> option. This can be used as a document's title.</p>
+			
+			<p><a href="mdb-demo3.gif"><img src="mdb-demo3.gif" alt="mdbuilder only outputting 'heading 1'"/></a></p>
+			
+			<p>If no input file is specified, mdbuilder will read from stdin.</p>
+			
+			<p><a href="mdb-demo4.gif"><img src="mdb-demo4.gif" alt="mdbuilder reading from stdin"/></a></p>
+		</div>
+		<noscript>
+			<p id="ns">&#960; <i>JS disabled! Keep up the great work!</i></p>
+		</noscript>
+	</body>
+</html>

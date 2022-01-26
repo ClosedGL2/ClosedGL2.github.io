@@ -2,13 +2,13 @@
 <rss version="2.0">
 	<channel>
 		<title>ClosedGL's Blog</title>
-		<link>https://closedgl.xyz/blog/</link>
+		<link>https://closedgl2.github.io/blog/</link>
 		<description>ClosedGL's blog posts</description>
 		<language>en-us</language>
 
 		<item>
 			<title>Now Writing in Markdown</title>
-			<link>https://closedgl.xyz/blog/2022-1-16-markdown/</link>
+			<link>https://closedgl2.github.io/blog/2022-1-16-markdown/</link>
 			<pubDate>Sun, 16 Jan 2022 14:02:00 -0600</pubDate>
 			<link>https://closedgl.xyz/blog/2022-1-16-markdown/</link>
 
@@ -17,7 +17,7 @@
 
 		<item>
 			<title>A year has passed</title>
-			<link>https://closedgl.xyz/blog/2021-12-31-endofyear/</link>
+			<link>https://closedgl2.github.io/blog/2021-12-31-endofyear/</link>
 			<pubDate>Fri, 31 Dec 2021 08:01:00 -0600</pubDate>
 			<guid>https://closedgl.xyz/blog/2021/12-31-endofyear/</guid>
 
@@ -26,7 +26,7 @@
 
 		<item>
 			<title>I am Self-Hosting Through Tor</title>
-			<link>https://closedgl.xyz/blog/2021-10-9-selfhost/</link>
+			<link>https://closedgl2.github.io/blog/2021-10-9-selfhost/</link>
 			<pubDate>Sat, 9 Oct 2021 14:15:00 -0600</pubDate>
 			<guid>https://closedgl.xyz/blog/2021-10-9-selfhost.html</guid>
 
@@ -35,7 +35,7 @@
 
 		<item>
 			<title>I Ordered a ThinkPad T420s</title>
-			<link>https://closedgl.xyz/blog/2021-9-5-t420s/</link>
+			<link>https://closedgl2.github.io/blog/2021-9-5-t420s/</link>
 			<pubDate>Sun, 5 Sep 2021 13:45:00 -0600</pubDate>
 			<guid>https://closedgl.xyz/blog/2021-9-5-t420s/index.html</guid>
 
@@ -44,7 +44,7 @@
 
 		<item> <!-- Permanently in the feed -->
 			<title>RSS Kicks Ass!</title>
-			<link>https://closedgl.xyz/blog/2021-8-4-rss/</link>
+			<link>https://closedgl2.github.io/blog/2021-8-4-rss/</link>
 			<pubDate>Wed, 04 Aug 2021 21:04:00 -0600</pubDate>
 			<guid>https://closedgl.xyz/blog/2021-8-4-rss/index.html</guid>
 
@@ -53,7 +53,7 @@
 
 		<item>
 			<title>My Site Goes Live!</title>
-			<link>https://closedgl.xyz/blog/2021-7-24-golive/</link>
+			<link>https://closedgl2.github.io/blog/2021-7-24-golive/</link>
 			<pubDate>Sat, 24 Jul 2021 22:29:00 -0600</pubDate>
 			<guid>https://closedgl2.github.io/blog/7-24-golive.html</guid>
 

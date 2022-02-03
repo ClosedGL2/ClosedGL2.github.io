@@ -7,6 +7,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>Old Man Yells at JavaScript</title>
+			<link>https://closedgl.xyz/blog/2022-2-3-javascript/</link>
+			<pubDate>Thu, 3 Feb 2022 03:59:00 -0600</pubDate>
+			<link>https://closedgl.xyz/blog/2022-2-3-javascript/</link>
+
+			<description>I created a site where I hate at JavaScript</description>
+		</item>
+
+		<item>
 			<title>Now Writing in Markdown</title>
 			<link>https://closedgl.xyz/blog/2022-1-16-markdown/</link>
 			<pubDate>Sun, 16 Jan 2022 14:02:00 -0600</pubDate>
@@ -49,15 +58,6 @@
 			<guid>https://closedgl.xyz/blog/2021-8-4-rss/index.html</guid>
 
 			<description>So, you're into using RSS feeds? Syndication feeds are a good way to get notified about many things.</description>
-		</item>
-
-		<item>
-			<title>My Site Goes Live!</title>
-			<link>https://closedgl.xyz/blog/2021-7-24-golive/</link>
-			<pubDate>Sat, 24 Jul 2021 22:29:00 -0600</pubDate>
-			<guid>https://closedgl2.github.io/blog/7-24-golive.html</guid>
-
-			<description>After several months, I finally have a website up and running.</description>
 		</item>
 	</channel>
 </rss>

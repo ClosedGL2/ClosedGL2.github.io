@@ -7,6 +7,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>The 3DS Internet Browser Test</title>
+			<link>https://closedgl.xyz/blog/2022-2-10-3dsbrowser/</link>
+			<pubDate>Thu, 10 Feb 2022 23:14:00 -0600</pubDate>
+			<link>https://closedgl.xyz/blog/2022-2-10-3dsbrowser/</link>
+
+			<description>I created a site where I hate at JavaScript</description>
+		</item>
+
+		<item>
 			<title>Old Man Yells at JavaScript</title>
 			<link>https://closedgl.xyz/blog/2022-2-3-javascript/</link>
 			<pubDate>Thu, 3 Feb 2022 03:59:00 -0600</pubDate>
@@ -40,15 +49,6 @@
 			<guid>https://closedgl.xyz/blog/2021-10-9-selfhost.html</guid>
 
 			<description>I now have a Tor mirror for this site on a "homelab" I set up.</description>
-		</item>
-
-		<item>
-			<title>I Ordered a ThinkPad T420s</title>
-			<link>https://closedgl.xyz/blog/2021-9-5-t420s/</link>
-			<pubDate>Sun, 5 Sep 2021 13:45:00 -0600</pubDate>
-			<guid>https://closedgl.xyz/blog/2021-9-5-t420s/index.html</guid>
-
-			<description>I ordered a ThinkPad T420s to use as my new daily driver.</description>
 		</item>
 
 		<item> <!-- Permanently in the feed -->

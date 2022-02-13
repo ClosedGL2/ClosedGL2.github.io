@@ -6,15 +6,9 @@ body {
 }
 
 .main {
-	width: 70%;
+	width: 100%;
 	max-width: 800px;
 	margin: auto;
-}
-
-@media only screen and (max-width: 640px) {
-	.main {
-		width: 100%;
-	}
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +31,6 @@ pre {
 code {
 	background-color: #000;
 	color: #f00;
-	overflow-wrap: anywhere;
 	font-size: 8pt;
 }
 
@@ -58,6 +51,7 @@ img {
 }
 
 hr {
+	background-color: #aaa;
 	border: 1px solid #aaa;
 }
 
@@ -76,4 +70,8 @@ blockquote {
 }
 #ns:hover i {
 	display: inline;
+}
+
+ul {
+	overflow: auto;
 }

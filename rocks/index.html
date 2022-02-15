@@ -24,13 +24,17 @@
 			
 			<h2>Tor and I2P</h2>
 			
-			<p>Net neutrality is important, and anonymity networks like Tor and I2P are great for net neutrality since they encrypt all your traffic to prevent eavesdropping, hide your location on a network, and allow anyone to run servers without port forwarding.</p>
+			<p>Net neutrality is important, and anonymity networks like Tor and I2P are great for net neutrality since they encrypt all your traffic to prevent eavesdropping and hide your location on a network.</p>
+			
+			<p>Anonymity networks allow anyone to run their own servers without port forwarding or worrying about publicizing their IP address, which are the two things that have been in the way of me self-hosting on the clearnet.</p>
+			
+			<p>HTTPS and certificate authorities are not at all needed on anonymity networks. All connections are end-to-end encrypted, and a hidden service's authenticity is verified by the fact that the public address could have only been generated using a private key stored only on the legitimate server.</p>
 			
 			<h2>Specifically I2P</h2>
 			
-			<p>Unlike Tor which just works like a browser bundle, I2P can anonymize any traffic. however, I2P cannot be used to access the clearnet since it is its own network on top of the clearnet. Everyone connected to I2P acts as a router for everyone's traffic, making I2P much more decentralized.</p>
+			<p>Unlike Tor which requires applications to be able to resolve domain names, I2P can anonymize any traffic. however, I2P cannot be used to access the clearnet since it is its own network on top of the clearnet. Everyone connected to I2P acts as a router for everyone's traffic, making I2P much more decentralized.</p>
 			
-			<p>I2P also has its own decentralized domain name system for addresses in the network.</p>
+			<p>I2P also has its own domain name system for addresses in the network called address books, allowing eepsites (I2P websites) and services on I2P to have human-readable names.</p>
 			
 			<h2>Raku programming language</h2>
 			

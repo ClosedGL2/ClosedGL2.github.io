@@ -57,6 +57,16 @@
 			<p>Some ISP's will even scare people away from net neutrality. In March 2021, I tried running an IPFS node and I was texted <a href="ipfs-xfi.jpg">this screenshot from my stepmother</a>. I'm not into IPFS anymore, but why should we let some company tell us what we can and cannot do with our internet connections? Now there's no way I can self host on the clearnet for a while since my parents blame me for this bullshit.</p>
 			
 			<p>Anonymity networks like Tor and I2P are a safe haven from all this.</p>
+			
+			<h2>HTTPS certificate authorities</h2>
+			
+			<p>Almost every website on the clearnet uses HTTPS, and everyone's web browsers are having to check with some huge certificate authority to verify a site's authenticity.</p>
+			
+			<p>Self-signed certificates are just as secure as those signed by a popular authority like Let's Encrypt or DigiCert, but as much as a webmaster wants to use one, browsers will still say the site is insecure because their home-grown signatures are not popular enough to be included in everyone's web browsers.</p>
+			
+			<p>Certificate authorities were likely created to capitalize on security since companies would charge people to get their certs signed before Let's Encrypt offered free signatures.</p>
+			
+			<p>Correct me if I'm wrong, but don't certificate authorities allow for mass surveillance when the CA can log what sites everyone is visiting when people's browsers check with them to verify the certificates?</p>
 		</div>
 		<noscript>
 			<p id="ns">&#960; <i>JS disabled! Keep up the great work!</i></p>

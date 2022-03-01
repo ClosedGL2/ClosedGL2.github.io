@@ -7,12 +7,21 @@
 		<language>en-us</language>
 
 		<item>
+			<title>Alternative to the ThinkPad's Proprietary CMOS Battery</title>
+			<link>https://closedgl.xyz/blog/2022-2-28-cmosbattery/</link>
+			<pubDate>Mon, 28 Feb 2022 19:14:00 -0600</pubDate>
+			<link>https://closedgl.xyz/blog/2022-2-28-cmosbattery/</link>
+
+			<description>It turns out it can be replaced with an off-the-shelf coin-cell battery.</description>
+		</item>
+
+		<item>
 			<title>The 3DS Internet Browser Test</title>
 			<link>https://closedgl.xyz/blog/2022-2-10-3dsbrowser/</link>
 			<pubDate>Thu, 10 Feb 2022 23:14:00 -0600</pubDate>
 			<link>https://closedgl.xyz/blog/2022-2-10-3dsbrowser/</link>
 
-			<description>I created a site where I hate at JavaScript</description>
+			<description>Will your site work in the Nintendo 3DS browser?</description>
 		</item>
 
 		<item>
@@ -40,15 +49,6 @@
 			<guid>https://closedgl.xyz/blog/2021/12-31-endofyear/</guid>
 
 			<description>2021 is almost over</description>
-		</item>
-
-		<item>
-			<title>I am Self-Hosting Through Tor</title>
-			<link>https://closedgl.xyz/blog/2021-10-9-selfhost/</link>
-			<pubDate>Sat, 9 Oct 2021 14:15:00 -0600</pubDate>
-			<guid>https://closedgl.xyz/blog/2021-10-9-selfhost.html</guid>
-
-			<description>I now have a Tor mirror for this site on a "homelab" I set up.</description>
 		</item>
 
 		<item> <!-- Permanently in the feed -->

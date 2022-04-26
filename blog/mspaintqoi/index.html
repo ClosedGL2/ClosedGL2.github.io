@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd" xml:lang="en">
+	<head>
+		<title>Hacking QOI Support into Microsoft Paint</title>
+		<link rel="stylesheet" href="../../css.css"/>
+		<link rel="shortcut icon" href="../../favicon.gif"/>
+		<meta name="author" content="ClosedGL"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="main">
+<h1>Hacking QOI Support into Microsoft Paint</h1>
+
+<p><a href="paint-qoi.png"><img src="facade/paint-qoi.png" alt="drawing of QOI logo in mspaint with filename 'paint-qoi.qoi'"/></a></p>
+
+<p>I have taken an interest in the <a href="https://qoiformat.org">QOI image format</a> for its simplicity and compression ratio similar to PNG. I have tried making <a href="https://github.com/ClosedGL2/SQIV">my own decoder and encoder</a> for QOI as a coding challenge because of its ease of implementation (the entire specification is just one page). I wanted more software to support QOI, and then I thought about mspaint.</p>
+
+<p>Right now I have not started yet, and I am totally cheating for the image above. "paint-qoi.qoi" was not really in QOI format.</p>
+
+<p><img src="notreallyqoi.png" alt="It's a Windows bitmap image"/></p>
+
+<h1>Windows XP Paint and gdiplus.dll</h1>
+
+<p>I will be working with the mspaint executable from Windows XP, which was the first version to support popular image formats like JPEG and PNG.</p>
+
+<p>When I run it with Wine on Linux, it's able to load and save JPEG, PNG, GIF, and TIFF images.</p>
+
+<p><a href="wine-xppaint.png"><img src="facade/wine-xppaint.png" alt="Windows XP paint in wine, able to save as PNG, JPEG, GIF, TIFF"/></a></p>
+
+<p>But when running it in Windows 2000, it can only load and save bitmaps native to Windows. What's going on?</p>
+
+<p><a href="win2k-xppaint.png"><img src="facade/win2k-xppaint.png" alt="Windows XP Paint in Windows 2000, only recognizing bitmaps"/></a></p>
+
+<p>In order to support more image codecs, mspaint has to load DLL file called <code>gdiplus.dll</code>, which is what handles JPEG, PNG, GIF, and TIFF codecs and loads them into bitmaps that mspaint can use.</p>
+
+<p>GDI+ was introduced in Windows XP and Wine supports GDI+, but since Windows 2000 doesn't have GDI+, mspaint is unable to load this DLL file and it can only handle Windows bitmaps.</p>
+
+<p><a href="win2k-xppaint-gdiplus.png"><img src="facade/win2k-xppaint-gdiplus.png" alt="Windows XP paint in Windows 2000 with gdiplus.dll"/></a></p>
+
+<p>My idea here is to get mspaint to load a different DLL file that supports the QOI codec.</p>
+
+<h1>Creating a new DLL file</h1>
+
+<p>First, I will need to know what GDI+ functions mspaint uses. Luckily, there is this space in the binary with all the GDI+ function names it uses.</p>
+
+<p><a href="lesspaint.png"><img src="facade/lesspaint.png" alt="mspaint.exe open in less scrolled down to GDI+ function names"/></a></p>
+
+<p>Now with some help from Microsoft's documentation and MinGW's GDI+ headers, I can begin to write my own DLL. I don't want to reinvent the wheel, so the new DLL will use the original <code>gdiplus.dll</code> file while intercepting some function calls and return values necessary to handle QOI.</p>
+		</div>
+		<noscript>
+			<p id="ns">&#960; <i>JS disabled! Keep up the great work!</i></p>
+		</noscript>
+	</body>
+</html>

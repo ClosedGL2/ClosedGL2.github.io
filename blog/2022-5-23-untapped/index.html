@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd" xml:lang="en">
+	<head>
+		<title>The Untapped Potential of Proprietary Source Code</title>
+		<link rel="stylesheet" href="../../css.css"/>
+		<link rel="shortcut icon" href="../../favicon.gif"/>
+		<style>body{background:url("../../pix/bg.gif") repeat fixed}</style>
+		<meta name="author" content="ClosedGL"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="main">
+<p><a href="../../">ClosedGL's Website</a> / <a href="../">Blog</a> / The Untapped Potential of Proprietary Source Code</p>
+
+<h1>The Untapped Potential of Proprietary Source Code</h1>
+
+<p><i>First published May 27, 2022 at 11:30 PM</i></p>
+
+<p>There is so much proprietary software out there that is pretty good and useful, but are held back in many ways by their source code not being pubically available. If the source code for all the proprietary software was released under free software licenses, including many games and abandonware source code still around, it could open up a whole world of exciting new possibilities.</p>
+
+<p>It doesn't just have to be source code. Hardware schematics and firmware signing keys could also be released to breathe new and libre life into many locked down and tivoized electronics.</p>
+
+<p>Of course it all won't happen overnight as proprietary software is often driven by power and profits, and we are still yet to raise the pitchforks, torches, and baseball bats over many other problems.</p>
+
+<h1>Free firmware for all computers</h1>
+
+<p>I have some computers which have either Coreboot or Libreboot, so the system will be running free software from the moment it's turned on, and hardware backdoors like the Intel ME are crippled, so there is no way for an agency or a cracker to remotely gain low-low-low-low-low-level access to the computer without my knowledge, and I can feel comfortable using it. While those machines are supported by Coreboot, I still have a few computers which are yet to be liberated.</p>
+
+<p><a href="DSCF3928.JPG"><img src="facade/DSCF3928.JPG" alt="My three p r o p r i e t a r y computers: Dell Inspiron 660s, Dell Inspiron 5100, ThinkPad Yoga 260"/></a></p>
+
+<p>While I'd guess the two Dell computers just aren't supported yet, the ThinkPad Yoga 260 from 2016 is another story. Many modern OEM computers check if the firmware was signed by the manufacturer before executing it, making Coreboot impossible to port to these machines without the manufacturer's blessing.</p>
+
+<p>If the OEM signing keys are released however, it would allow the community to use free firmware on any OEM system. Moreover, if the signing keys for microcode updates, Intel ME firmware, and AMD PSP firmware are released, every proprietary blob could be replaced, making the entire system libre.</p>
+
+<p><a href="DSCF3934.jpg"><img src="facade/DSCF3934.jpg" alt="Setup utility on Dell Inspiron 660s"/></a></p>
+
+<p>One thing I really miss when using Coreboot is having a nice intuitive setup utility to change boot order and advanced system settings. I really don't want to reflash to change the boot order or hardware modes. If the source codes for PhoenixBIOS, AMIBIOS, or whatever were released, it could be rewritten as a Coreboot payload and have their nice setup screens for whatever system it's on, so convenience will not be sacrified for freedom.</p>
+
+<h1>Empowering Windows alternatives</h1>
+
+<p>Windows is a popular operating system, but that doesn't mean it's good. If you use a Unix-like operating system, you may agree that Windows is atrocious, but many people are stuck using it because of the software they need to run.</p>
+
+<p>There are free software projects like Wine and ReactOS which are designed to be like Windows and run Windows software, but it is quite hit or miss in their current states, mainly because the developers have to reverse-engineer Windows and are not allowed to use copyrighted Windows source code. So right now, actually using Windows is the best way to run Windows software. If every last byte of the Windows source code was released, Wine and ReactOS could be perfect and run Windows software perfectly outside of Windows.</p>
+
+<h1>Upcycling abandonware</h1>
+
+<p>There is some old software that can still be useful today if the source code, assuming it's still around, was released, allowing it to be reworked and upcycled. Here are a couple examples:</p>
+
+<h2>Flash</h2>
+
+<p><a href="flash2beachbaby.png"><img src="facade/flash2beachbaby.png" alt="Macromedia Flash 2 Beach Baby animation - Credit to Web Design Museum for this screenshot"/></a></p>
+
+<p>Flash was an excellent vector animation system that found use in many online animations, games, and even cartoons on TV in the late 90s to mid 2010's, and was discontinued in 2020. I have fond childhood memories of Papa Louie Arcade, the Henry Stickmin series, Happy Wheels, and Scratch 2.0, all of which used Flash.</p>
+
+<p>I think it would have lasted longer and experienced wider use if it were open-source and its scripting engine wasn't a security nightmare. There is an open-source web game archival project called <a href="https://bluemaxima.org/flashpoint/">Flashpoint</a>, and I think it still uses the final proprietary version of Adobe Flash Player for playing Flash media, which it wouldn't need if its player could play it natively.</p>
+
+<h2>Microsoft Visual Basic 6.0</h2>
+
+<p><a href="vb6hortercalc.png"><img src="facade/vb6hortercalc.png" alt="My horter calculator in VB6 designer"/></a></p>
+
+<p>I found an old VB6 textbook that someone was throwing out and decided to mess around with it, and in doing so made the <a href="../../files/hortercalc.zip">horter calculator</a> shown above. I found VB6 pretty nice to use and easy to make basic GUI applications with.</p>
+
+<p>I could definitely see VB6 projects being built for systems other than Windows, like GTK on Unix-like systems, as long as the code doesn't use the Windows API. It has a good purpose-built scripting language that I think would be simpler than using C/C++, Python, etc. with a GTK or Qt interface. So if this was ported to other systems, I think it would make a great starting point for getting into GUI applications.</p>
+
+<h1>Learn from the source code</h1>
+
+<p>Something that has really helped me learn programming languages was being able to read the source code of open-source software. Seeing how things were done, how I can write code better, how to optimize the code to run on a piece of lettuce. It would be a great help to many people learning to program if they could lift up the hood on any of their favorite software.</p>
+
+<h1>Random Bullshit GO!</h1>
+
+<ul>
+	<li>What if the Sonic's Schoolhouse source tree was used to create an "authentic" Baldi's Basics?</li>
+	<li>5 4 3 2 1 uno uno, zero, Kid Pix, Kid Pix, Come on play it on Linux</li>
+	<li>All the old games are eternal and native on any system, did you really need the game console anyway?</li>
+	<li>Maybe build a new one of that game console if it breaks</li>
+	<li>bring back NTLDR bootloader in modern windows, no more secure boot</li>
+	<li>improving windows? i thought we perfected reactos</li>
+	<li>I actually like some of the classic windows fonts, it's a shame they're proprietary</li>
+	<li>[Premiere Pro] Ctrl-C [Olive] Ctrl-V</li>
+	<li>[Photoshop] Ctrl-C [GIMP] Ctrl-V</li>
+</ul>
+		</div>
+		<noscript>
+			<p id="ns">&#960; <i>JS disabled!</i></p>
+		</noscript>
+	</body>
+</html>

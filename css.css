@@ -1,5 +1,7 @@
 body {
-	background-color: #111;
+	background-color: #000;
+	background-repeat: repeat;
+	background-attachment: fixed;
 	color: #aaa;
 	font-family: monospace;
 	font-size: 10pt;
@@ -48,6 +50,7 @@ a:hover b {
 }
 
 img {
+	border: none;
 	max-width: 100%;
 }
 

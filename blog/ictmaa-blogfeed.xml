@@ -50,14 +50,5 @@
 
 			<description>Will your site work in the Nintendo 3DS browser?</description>
 		</item>
-
-		<item> <!-- Permanently in the feed -->
-			<title>RSS Kicks Ass!</title>
-			<link>https://closedgl.xyz/blog/2021-8-4-rss/</link>
-			<pubDate>Wed, 04 Aug 2021 21:04:00 -0600</pubDate>
-			<guid>https://closedgl.xyz/blog/2021-8-4-rss/index.html</guid>
-
-			<description>So, you're into using RSS feeds? Syndication feeds are a good way to get notified about many things.</description>
-		</item>
 	</channel>
 </rss>

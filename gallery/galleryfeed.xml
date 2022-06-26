@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>ClosedGL's Image Gallery</title>
+		<link>https://closedgl.xyz/gallery/</link>
+		<description>ClosedGL's images</description>
+		<language>en-us</language>
+<!--BEEPBEEPB00P This comment is of significance to a script -->
+		<item>
+			<title>June 25, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF4038.JPG</link>
+			<pubDate>Sat, 25 Jun 2022 22:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF4038.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF4038.JPG" length="1372715" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>I don't believe all the Wiis will self-destruct in 2023, but they might have an issue <a href="https://en.wikipedia.org/wiki/Year_2038_problem">in 2038</a>. It won't let me set the year any higher than this.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>June 21, 2022</title>
+			<link>https://closedgl.xyz/gallery/rated-drm.png</link>
+			<pubDate>Tue, 21 Jun 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/rated-drm.png</guid>
+			<enclosure url="https://closedgl.xyz/gallery/rated-drm.png" length="50444" type="image/png"/>
+
+			<description><![CDATA[
+				<p>A DRM thing, parodying <a href="https://www.esrb.org/ratings-guide/">the ESRB's video game ratings</a> in North America.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>June 18, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3981.JPG</link>
+			<pubDate>Sat, 18 Jun 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3981.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3981.JPG" length="1500847" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>I wonder if Go Vacation's photo book can be extracted from the save file into standard image files.</p>
+				<p>The save file is much too small to hold 100 whole images, so I'm guessing the game is just storing a description of everything in the photo, requiring the game's assets to reconstruct.</p>
+				<p>All the video game source code must also be released.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>June 12, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3951.JPG</link>
+			<pubDate>Sun, 12 Jun 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3951.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3951.JPG" length="1207900" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>I am anticipating a possible spike in e-waste starting <a href="https://docs.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro#support-dates">in three years</a>.</p>
+				<p>All the millions of late 2000's to late 2010's computers in the wild, running the world, kept alive by Windows 10. As Windows 10 is discontinued, they will all be trashed as Windows 11's obscene requirements are forced upon us.</p>
+				<p>Either that or desktop Linux becoming more mainstream when more people look into adopting it because they don't want to spend money on new computers. But given how dominant Windows is...</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>June 5, 2022</title>
+			<link>https://closedgl.xyz/gallery/winxpinternet.png</link>
+			<pubDate>Sun, 5 Jun 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/winxpinternet.png</guid>
+			<enclosure url="https://closedgl.xyz/gallery/winxpinternet.png" length="100620" type="image/png"/>
+
+			<description><![CDATA[
+				<p>I take my fair share of risks</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>June 2, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3942.JPG</link>
+			<pubDate>Thu, 2 Jun 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3942.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3942.JPG" length="1541047" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>When rummaging through some junk left outside nearby, I found enough parts to be well into building an early 2000s PC.</p>
+				<p>There is a lot of old hardware in attics, crawlspaces, storage units, and landfills, with their owners not caring or thinking about them, waiting to be unearthed, cleaned and/or repaired, and distributed to people who will use and appreciate them.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>May 31, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3937.JPG</link>
+			<pubDate>Tue, 31 May 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3937.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3937.JPG" length="1450644" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>Going back to my TFT monitor after using IPS and CRT for two weeks, wow do blacks ever look so bright</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>August 16, 2021</title>
+			<link>https://closedgl.xyz/gallery/langant.gif</link>
+			<pubDate>Mon, 16 Aug 2021 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/langant.gif</guid>
+			<enclosure url="https://closedgl.xyz/gallery/langant.gif" length="546" type="image/gif"/>
+
+			<description><![CDATA[
+				<p>I programmed Langton's Ant on my graphing calculator and made it wrap around the screen, which made a good tilable background for this site. It's easier to see here than in the low contrast of the site's background.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>May 20, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3888.JPG</link>
+			<pubDate>Fri, 20 May 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3888.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3888.JPG" length="1556225" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>A Visual Basic textbook I found that someone was throwing out. It had CD copies of VB6 and the project files used in the book, so I was able to dabble around with it.</p>
+				<p>This is not the original cover as this is a copy printed by Cengage Larning.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>May 20, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3896.JPG</link>
+			<pubDate>Fri, 20 May 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3896.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3896.JPG" length="1462276" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>Got my hands on a CRT monitor, such a beauty (but not on my crappy camera)</p>
+				<p>I'd like to see it next to an OLED when more OLED computer monitors are available, as CRT and OLED share many advantages.</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>May 21, 2022</title>
+			<link>https://closedgl.xyz/gallery/DSCF3904.JPG</link>
+			<pubDate>Sat, 21 May 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/DSCF3904.JPG</guid>
+			<enclosure url="https://closedgl.xyz/gallery/DSCF3904.JPG" length="1249657" type="image/jpeg"/>
+
+			<description><![CDATA[
+				<p>We're 100% BLACK! CRT's don't use backlights, so they have perfect blacks</p>
+			]]></description>
+		</item>
+
+		<item>
+			<title>May 30, 2022</title>
+			<link>https://closedgl.xyz/gallery/serenityos.png</link>
+			<pubDate>Mon, 30 May 2022 00:00:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/gallery/serenityos.png</guid>
+			<enclosure url="https://closedgl.xyz/gallery/serenityos.png" length="612094" type="image/png"/>
+
+			<description><![CDATA[
+				<p>Together we can build a new glorious era. One that is lightweight, open, free from corporate tyranny, and in C++?!</p>
+			]]></description>
+		</item>
+	</channel>
+</rss>

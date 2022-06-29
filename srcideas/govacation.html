@@ -81,9 +81,11 @@
 
 <h1>Replace the insanely bloated save data format</h1>
 
-<p>The save file is TEN MEGABYTES (80 Wii blocks). It's also a binary format. How in the world did they use <i>that</i> much space?</p>
+<p>The save file is OVER TEN MEGABYTES (80 Wii blocks). How in the world did they use <i>that</i> much space? The game would need so much expansion for that to remotely make sense!</p>
 
-<p>Knowing the game and knowing how to make efficient use of space, I could devise a very miniscule binary format that will fit snuggly on a floppy disk (1.44 MB), my laptop's BIOS ROM (16 MB), the RAM of my TI-83 Plus (24 KB), a hexdump printed on a single sheet of paper (haven't calculated this), a single PS1 memory card block (7.5 KB), the flash of an ATtiny microcontroller (1-32 KiB)</p>
+<p>Knowing the game and knowing how to make efficient use of space, I could devise a miniscule binary format that will fit snuggly on a floppy disk (1.44 MB), my laptop's BIOS ROM (16 MB), the RAM of my TI-83 Plus (24 KB, 21 KB usable), a hexdump printed on a single sheet of paper (haven't calculated this), the flash of an ATtiny microcontroller (1-32 KiB), and whatever other small data storage you can think of. It should get it down to just one Wii block, smaller than most Wii games that have less to do than Go Vacation.</p>
+
+<p>I began trying this and I just took off PS1 memory card save slot (7.5 KB) because I underestimated this game and don't want to cheat with compression, but my point stands</p>
 		</div>
 		<noscript>
 			<p id="ns">&#960; <i>JS disabled!</i></p>

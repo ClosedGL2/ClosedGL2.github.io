@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>ClosedGL's Notes</title>
+		<link>https://closedgl.xyz/notes</link>
+		<description>Short messages, basically an alernative to tweets or toots</description>
+		<language>en-us</language>
+
+		<item>
+			<title>I HATE HAVING Y CHROMOSOME</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Tue, 5 Jul 2022 20:30:00 -0600</pubDate>
+			<guid>note 003</guid>
+
+			<description>I HATE HAVING Y CHROMOSOME</description>
+		</item>
+
+		<item>
+			<title>I'm a walking duck on the net...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Tue, 5 Jul 2022 20:00:00 -0600</pubDate>
+			<guid>note 002</guid>
+
+			<description>I'm a walking duck on the net. Maybe I should set up the sanctuary network I've been thinking of.</description>
+		</item>
+
+		<item>
+			<title>I thought about calling these notes...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Tue, 5 Jul 2022 19:30:00 -0600</pubDate>
+			<guid>note 001</guid>
+
+			<description>I thought about calling these notes "noises", but that may have been a bit obnoxious.</description>
+		</item>
+
+		<item>
+			<title>Government tyranny is scary...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Mon, 4 Jul 2022 23:30:00 -0600</pubDate>
+			<guid>note 000</guid>
+
+			<description>Government tyranny is scary, and it's raining bullets around here. I had fun burning an American flag today.</description>
+		</item>
+	</channel>
+</rss>

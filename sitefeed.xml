@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 	<channel>
-		<!-- If you're curious, "ictmaa" is short for "I've come to make an announcement" -->
 		<title>ClosedGL's Website Updates</title>
 		<link>https://closedgl.xyz/</link>
 		<description>Changes to the site</description>
 		<language>en-us</language>
+
+		<item>
+			<title>Notes</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Tue, 5 Jul 2022 20:39:00 -0600</pubDate>
+			<guid>change 001</guid>
+
+			<description>A page where I post short messages</description>
+		</item>
 
 		<item>
 			<title>Added a site updates feed</title>

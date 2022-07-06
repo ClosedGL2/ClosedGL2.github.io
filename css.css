@@ -28,7 +28,8 @@ a:hover {
 
 pre {
 	background-color: #000;
-	padding: 10px;
+	padding: 9px;
+	border: 1px solid #f00;
 }
 
 code {

@@ -7,6 +7,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>sprintf(objective, "Try to get...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Wed, 6 Jul 2022 01:20:00 -0600</pubDate>
+			<guid>note 004</guid>
+
+			<description><![CDATA[<pre><code>sprintf(objective, "Try to get all the silver keys!\nOnly %d left to go!", im_addicted_to_go_vacation);</code></pre>]]></description>
+		</item>
+
+		<item>
 			<title>I HATE HAVING Y CHROMOSOME</title>
 			<link>https://closedgl.xyz/notes</link>
 			<pubDate>Tue, 5 Jul 2022 20:30:00 -0600</pubDate>

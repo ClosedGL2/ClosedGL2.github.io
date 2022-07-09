@@ -3,8 +3,17 @@
 	<channel>
 		<title>ClosedGL's Notes</title>
 		<link>https://closedgl.xyz/notes</link>
-		<description>Short messages, basically an alernative to tweets or toots</description>
+		<description>Short messages that are too short to make into a blog post</description>
 		<language>en-us</language>
+
+		<item>
+			<title>What a shame that repair...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Fri, 8 Jul 2022 21:10:00 -0600</pubDate>
+			<guid>note 005</guid>
+
+			<description>What a shame that repair and maintainence are the norm with cars, but not computers. All the major companies have made computer repair too much of a walled garden in the name of planned obsolescence.</description>
+		</item>
 
 		<item>
 			<title>sprintf(objective, "Try to get...</title>

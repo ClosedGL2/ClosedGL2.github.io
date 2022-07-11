@@ -8,6 +8,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>I'm Quitting Coffee!</title>
+			<link>https://closedgl.xyz/blog/2022-7-11-quitcoffee/</link>
+			<pubDate>Mon, 11 Jul 2022 10:51:00 -0600</pubDate>
+			<guid>https://closedgl.xyz/blog/2022-7-11-quitcoffee/</guid>
+
+			<description>I've been inhaling so many cups of coffee and it has been destroying me.</description>
+		</item>
+
+		<item>
 			<title>Comparing Go Vacation to real life</title>
 			<link>https://closedgl.xyz/blog/2022-6-26-gv-reallife/</link>
 			<pubDate>Sun, 26 Jun 2022 01:00:00 -0600</pubDate>

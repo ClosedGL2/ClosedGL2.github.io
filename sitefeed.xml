@@ -7,6 +7,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>Removed mastodon from contact page</title>
+			<link>https://closedgl.xyz/contact</link>
+			<pubDate>Sat, 16 Jul 2022 04:54:00 -0600</pubDate>
+			<guid>change 003</guid>
+
+			<description>I deleted my mastodon and only now realized it was still in that page, fixed now</description>
+		</item>
+
+		<item>
 			<title>Disorganized the link list</title>
 			<link>https://closedgl.xyz/links</link>
 			<pubDate>Fri, 15 Jul 2022 23:23:00 -0600</pubDate>

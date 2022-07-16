@@ -7,6 +7,15 @@
 		<language>en-us</language>
 
 		<item>
+			<title>Disorganized the link list</title>
+			<link>https://closedgl.xyz/links</link>
+			<pubDate>Fri, 15 Jul 2022 23:23:00 -0600</pubDate>
+			<guid>change 002</guid>
+
+			<description>And only left sites i actually care about</description>
+		</item>
+
+		<item>
 			<title>Notes</title>
 			<link>https://closedgl.xyz/notes</link>
 			<pubDate>Tue, 5 Jul 2022 20:39:00 -0600</pubDate>

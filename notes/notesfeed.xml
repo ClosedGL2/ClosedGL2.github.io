@@ -7,9 +7,20 @@
 		<language>en-us</language>
 
 		<item>
+			<title>Libreboot on my X200 Tablet feels...</title>
+			<link>https://closedgl.xyz/notes</link>
+			<pubDate>Tue, 19 Jul 2022 02:32:00 -0600</pubDate>
+			<guid>note 019</guid>
+
+			<description><![CDATA[
+<p><a href="https://libreboot.org">Libreboot</a> on my X200 Tablet feels severely limiting with too many things not working right, hopefully it will be happier with <a href="https://osboot.org">osboot</a></p>
+			]]></description>
+		</item>
+
+		<item>
 			<title>We should just stop manufacturing...</title>
 			<link>https://closedgl.xyz/notes</link>
-			<pubDate>Mon, 17 Jul 2022 01:27:00 -0600</pubDate>
+			<pubDate>Mon, 18 Jul 2022 01:27:00 -0600</pubDate>
 			<guid>note 018</guid>
 
 			<description>We should just stop manufacturing new computers and maintain existing ones, and only manufacture new stuff when necessary.</description>
